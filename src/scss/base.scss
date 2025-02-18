@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+  color: $colorMain;
+  height: 100%;
+  background: $colorBackground;
+}
+
+body.loading {
+  opacity: 0;
+}
+
+.experience {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dom {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.presentation {
+  h1 {
+    font-size: 32px;
+  }
+  position: absolute;
+  bottom: 0px;
+  left: $paddinHor;
+  max-width: 530px;
+  font-size: 14px;
+  opacity: 0.8;
+  text-transform: uppercase;
+  margin-bottom: $paddinVert;
+  p {
+    display: block;
+    margin-top: 12px;
+    color: rgba($colorMain, 0.6);
+  }
+
+  @include media("<tablet") {
+    display: none;
+  }
+}
+
+@include media("<phone") {
+  .dom {
+    display: none;
+  }
+
+  .experience {
+    display: none;
+  }
+}
+
+.rotate-device {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $colorBackground;
+  z-index: 999;
+  color: rgba($colorMain, 0.6);
+  justify-content: center;
+  align-items: center;
+  font-size: vwM(10);
+
+  display: none;
+
+  @include media("<tablet") {
+    @media (orientation: landscape) {
+      display: flex;
+    }
+  }
+}

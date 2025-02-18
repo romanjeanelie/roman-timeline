@@ -1,0 +1,10 @@
+@use 'sass:math';
+
+// Mixin Viewport Width
+@function vw($width) {
+  @return 100 * math.div($width, 1380) * 1vw;
+}
+
+@function vwM($width) {
+  @return 100 * math.div($width, 420) * 1vw;
+}

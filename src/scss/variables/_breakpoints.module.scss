@@ -1,0 +1,24 @@
+@import "include-media/dist/include-media";
+
+$minimum: 320px;
+$phone: 425px;
+$tablet: 820px;
+$desktop: 1024px;
+$large: 1200px;
+$maximum: 1600px;
+
+$paddinVert: 20px;
+$paddinHor: 24px;
+
+$breakpoints: (
+  minimum: $minimum,
+  phone: $phone,
+  tablet: $tablet,
+  desktop: $desktop,
+  large: $large,
+  maximum: $maximum,
+);
+
+:export {
+  desktop: $desktop;
+}

@@ -1,0 +1,94 @@
+$legend-colors: (
+  "pro": $pro,
+  "perso": $perso,
+  "lab": $lab,
+);
+
+.point-container {
+  position: absolute;
+}
+
+.point {
+  display: block;
+  position: absolute;
+  background: #d0cfcf;
+  width: 10px;
+  height: 10px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  opacity: 0;
+  cursor: pointer;
+
+  @each $type, $color in $legend-colors {
+    &--#{$type} {
+      background: $color;
+      & > .point__circle {
+        border-color: $color;
+      }
+    }
+  }
+
+  &--indicator {
+    display: none;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+}
+
+.point__circle {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 100%;
+  height: 100%;
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+// Description
+.point__description {
+  pointer-events: none;
+  max-width: 100px;
+  margin-left: 20px;
+  transform: translateY(-100%);
+  opacity: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 0%;
+    transform: translate3d(0%, -50%, 0);
+    background: radial-gradient(ellipse farthest-corner, $colorBackground 10%, transparent 50%);
+    opacity: 1;
+    z-index: -1;
+  }
+
+  &--left {
+    transform: translateX(-100%) translateY(-100%);
+    margin-left: 0px;
+    padding-right: 20px;
+    text-align: right;
+  }
+
+  &--indicator {
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 160px;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+}

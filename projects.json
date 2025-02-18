@@ -1,0 +1,149 @@
+[
+  {
+    "title": "june 2020 \nstart learning code",
+    "date": "2020-06-01",
+    "type": "indicator",
+    "top": -0.35
+  },
+  {
+    "title": "La prochaine fête",
+    "date": "2020-11-01",
+    "type": "lab",
+    "top": 0,
+    "url": "https://jolly-hamilton-52f78d.netlify.app/"
+  },
+  {
+    "title": "Tribute to beau",
+    "date": "2021-05-20",
+    "type": "perso",
+    "descriptionDirection": "left",
+    "url": "https://www.tributetobeau.com/"
+  },
+  {
+    "title": "2021' Portfolio",
+    "date": "2021-09-01",
+    "type": "perso",
+    "descriptionDirection": "left",
+    "url": "https://pfl1.netlify.app/"
+  },
+  {
+    "title": "\nstart working for \nImpossible Bureau \nfor 3 months",
+    "date": "2021-10-01",
+    "type": "indicator",
+    "top": -0.2
+  },
+  {
+    "title": "Possession Game",
+    "date": "2022-04-01",
+    "type": "pro",
+    "descriptionDirection": "left",
+    "top": -0.2,
+    "url": "https://possession-game.com/"
+  },
+  {
+    "title": "Où est Jean-Luc",
+    "date": "2022-06-01",
+    "type": "perso",
+    "url": "https://www.ou-est-jean-luc.com/"
+  },
+  {
+    "title": "start working for \nMazarine for 1 year",
+    "date": "2022-08-01",
+    "type": "indicator",
+    "top": -0.1
+  },
+  {
+    "title": "Coccinelle",
+    "date": "2022-12-01",
+    "type": "pro",
+    "descriptionDirection": "left",
+    "top": -0.2,
+    "url": "https://www.vancleefarpels.com/fr/fr/the-maison/the-heritage-gallery/ladybug.html"
+  },
+  {
+    "title": "Eau papier",
+    "date": "2023-02-01",
+    "type": "pro",
+    "top": -0.4,
+    "url": "https://eau-papier.diptyqueparis.com/fr_eu/"
+  },
+  {
+    "title": "Gris Dior",
+    "date": "2023-06-01",
+    "type": "pro",
+    "top": -0.1,
+    "url": "https://diorminisites-stg-wap01.azurewebsites.net/beauty/fr_fr/th/gris_dior.html"
+  },
+  {
+    "title": "2023' portfolio",
+    "date": "2023-10-01",
+    "type": "perso",
+    "descriptionDirection": "left",
+    "top": 0,
+    "url": "https://romanjeanelie.com/"
+  },
+  {
+    "title": "Infinite slider",
+    "date": "2023-11-02",
+    "type": "lab",
+    "descriptionDirection": "left",
+    "top": 0.3,
+    "url": "https://infinite-slider-pink.vercel.app/"
+  },
+  {
+    "title": "3D Fur",
+    "date": "2023-12-10",
+    "type": "lab",
+    "top": 0.4,
+    "descriptionDirection": "left",
+    "url": "https://fur-theta.vercel.app/"
+  },
+  {
+    "title": "3D Glass effect",
+    "date": "2024-01-09",
+    "type": "lab",
+    "top": 0.5,
+    "descriptionDirection": "left",
+    "url": "https://glass-effect-m3wr.vercel.app/"
+  },
+  {
+    "title": "Trail effect",
+    "date": "2024-01-25",
+    "type": "lab",
+    "top": 0.6,
+    "descriptionDirection": "left",
+    "url": "https://texture-plane.vercel.app"
+  },
+  {
+    "title": "Reno",
+    "date": "2024-03-10",
+    "type": "pro",
+    "top": -0.1,
+    "descriptionDirection": "right",
+    "url": "https://www.instagram.com/ac3studio/p/DC1LGsNzw6h/?img_index=1"
+  },
+  {
+    "title": "Molyxa",
+    "date": "2024-05-10",
+    "type": "pro",
+    "top": 0,
+    "descriptionDirection": "left",
+    "url": "https://molyxa.com/"
+  },
+  {
+    "title": "Design interaction",
+    "date": "2024-07-10",
+    "type": "lab",
+    "top": 0.4,
+    "descriptionDirection": "right",
+    "url": "https://romanjeanelie-lab.vercel.app/"
+  },
+  {
+    "title": "Scroll speed",
+    "date": "2025-01-10",
+    "type": "lab",
+    "top": 0.4,
+    "descriptionDirection": "left",
+    "url": "https://scroll-speed.vercel.app/"
+  }
+]
