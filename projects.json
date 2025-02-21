@@ -75,6 +75,14 @@
     "url": "https://diorminisites-stg-wap01.azurewebsites.net/beauty/fr_fr/th/gris_dior.html"
   },
   {
+    "title": "IAMAI",
+    "date": "2023-8-01",
+    "type": "pro",
+    "descriptionDirection": "left",
+    "top": 0,
+    "url": "https://iamai-ashen.vercel.app/login/index.html"
+  },
+  {
     "title": "2023' portfolio",
     "date": "2023-10-01",
     "type": "perso",
